@@ -6,7 +6,7 @@
 A digital companion to the research paper 
 
 ```
-**Valentyna Riabchuk, Leon Hagel, Felix Germaine, and Alona Zharova** (2022). 
+Valentyna Riabchuk, Leon Hagel, Felix Germaine, and Alona Zharova (2022). 
 Utility-Based Context-Aware Multi-Agent Recommendation System for Energy Efficiency in Residential Buildings. 
 arXiv preprint. DOI: doi.org/10.48550/arXiv.2205.02704.
 ```
@@ -35,12 +35,42 @@ We provide a comprehensive tutorial in Jupyter Notebook with code in Python for 
 
 **Keywords:** recommendation system, energy efficiency, load shifting, energy consumption behavior.
 
-## Repo structure
-
-The repo has the following structure:
-
 ## Data
 
 We use the REFIT Electrical Load Measurements data ([Murray et al., 2017](https://www.nature.com/articles/sdata2016122)) to analyze our recommender system. The data contains the energy consumption of nine different devices used in 20 households in the United Kingdom from 2013 to 2015. 
 
 For the day-ahead prices provided by the Price Agent, we access the online database for industry day-ahead prices for the United Kingdom ([ENTSO-E, 2015](https://transparency.entsoe.eu/transmission-domain/r2/dayAheadPrices/show)). 
+
+### Adding data
+
+The REFIT data files can be accessed using the following link: https://www.doi.org/10.15129/9ab14b0e-19ac-4279-938f-27f643078cec.
+
+After downloading the clean household data needs to be copied to ./data
+
+## Project structure
+
+├── README.txt                                                  # this readme file
+│
+├── code.                                                       # agent notebooks + .py scripts
+│   ├── Activity_Agent.ipynb
+│   ├── Evaluation_Agent.ipynb
+│   ├── Load_Agent.ipynb
+│   ├── Preparation_Agent.ipynb
+│   ├── Price_Agent.ipynb
+│   ├── Recommendation_Agent.ipynb
+│   ├── Usage_Agent.ipynb
+│   ├── agents.py
+│   └── helper_functions.py
+│
+├── data                                                        # REFIT household data, price data, REFIT readme
+│   ├── CLEAN_House1.csv                                            # household data (Murray et al., 2017, household 1 to 10) 
+│   ├── [...]                                                       # is not included, however required for evaluation
+│   ├── CLEAN_House10.csv                                           
+│   ├── REFIT_Readme.txt
+│   └── Day-ahead Prices_201501010000-201601010000.csv              # day-ahead prices provided by ENTSO-E, n.d.
+│
+│
+└── export                                                      # path for exporting configurations and intermediate results
+    ├── 1_config.json                                               # configurations used for evaluating households 1 to 10
+    ├── [...]
+    └── 10_config.json
