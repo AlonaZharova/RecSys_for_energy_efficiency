@@ -72,3 +72,20 @@ After downloading the clean household data needs to be copied to ./data
     ├── [...]
     └── 10_config.json
 ````
+
+## Citation
+
+If you use this code in your research, please cite our [paper](https://doi.org/10.48550/arXiv.2205.02704).
+
+```
+@misc{RHGZ2022,
+  title = {Utility-Based Context-Aware Multi-Agent Recommendation System for Energy Efficiency in Residential Buildings},
+  author = {Riabchuk, Valentyna and Hagel, Leon and Germaine, Felix and Zharova, Alona},
+  publisher = {arXiv},
+  year = {2022},
+  doi = {10.48550/ARXIV.2205.02704}  
+}
+```
+
+## Contact
+- Alona Zharova, alona.zharova@hu-berlin.de
