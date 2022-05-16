@@ -6,7 +6,7 @@
 A digital companion to the research paper 
 
 ```
-Valentyna Riabchuk, Leon Hagel, Felix Germaine, and Alona Zharova (2022). 
+**Valentyna Riabchuk, Leon Hagel, Felix Germaine, and Alona Zharova** (2022). 
 Utility-Based Context-Aware Multi-Agent Recommendation System for Energy Efficiency in Residential Buildings. 
 arXiv preprint. DOI: doi.org/10.48550/arXiv.2205.02704.
 ```
