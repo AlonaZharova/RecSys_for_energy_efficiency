@@ -5,15 +5,12 @@
 A digital companion to the research paper 
 
 ```
-Riabchuk, V., Hagel, L., Germaine, F. and Zharova, A. (2022). 
+Valentyna Riabchuk, Leon Hagel, Felix Germaine, and Alona Zharova (2022). 
 Utility-Based Context-Aware Multi-Agent Recommendation System for Energy Efficiency in Residential Buildings. 
 arXiv preprint. DOI: doi.org/10.48550/arXiv.2205.02704.
 ```
 The paper is available at: [arXiv](https://doi.org/10.48550/arXiv.2205.02704)
 
-## Authors 
-
-Valentyna Riabchuk, Leon Hagel, Felix Germaine, and Alona Zharova
 
 ## Summary 
 
@@ -30,8 +27,14 @@ We provide a statistically grounded solution for predicting user availability to
 
 The empirical analysis aims to quantify how much a user can save by utilizing our recommender system. To achieve this, we create recommendations, determine the acceptability of the recommendations and calculate the energy costs for running the devices with and without recommendations to receive the potential energy cost saving. The results show that the system can provide energy cost savings of 18% and more for most studied households if the user implements all recommendations
 
-## Codes
-
 We provide a comprehensive tutorial in Jupyter Notebook with code in Python for all the steps described in this paper and beyond.
 
-**Keywords:** recommendation system, energy efficiency, load shifting, energy consumption behavior
+**Keywords:** recommendation system, energy efficiency, load shifting, energy consumption behavior.
+
+## Repo structure
+
+The repo has the following structure:
+
+## Data
+
+We use the REFIT Electrical Load Measurements data [Murray et al., 2017](https://www.nature.com/articles/sdata2016122) to analyze our recommender system. The data contains the energy consumption of nine different devices used in 20 households in the United Kingdom from 2013 to 2015. To validate our findings, we perform our evaluation steps on households 1 to 10. For the day- ahead prices provided by the Price Agent, we access the online database for industry day-ahead prices for the United Kingdom [ENTSO-E, 2015]. Even though these prices are not the actual prices that the households pay for their energy consumption, these prices indicate a realistic proxy for possible variable prices at the household level. Higher industry prices reflect higher demand in the market and result in higher energy prices for households with variable tariffs. Even without variable household prices, optimizing according to day-ahead wholesale electricity prices should help to match demand and supply better and consume more efficiently.
