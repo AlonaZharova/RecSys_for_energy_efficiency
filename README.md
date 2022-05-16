@@ -11,11 +11,6 @@ arXiv preprint. DOI: doi.org/10.48550/arXiv.2205.02704.
 ```
 The paper is available at: [arXiv](https://doi.org/10.48550/arXiv.2205.02704)
 
-- [Summary](#summary)
-- [Data](#data)
-- [Setup](#setup)
-- [Project structure](#project-structure)
-
 ## Summary 
 
 A significant part of CO2 emissions is due to high electricity consumption in residential buildings. Using load shifting can help to improve the households’ energy efficiency. To nudge changes in energy consumption behavior, simple but powerful architectures are vital. 
