@@ -41,14 +41,14 @@ We use the REFIT Electrical Load Measurements data ([Murray et al., 2017](https:
 
 For the day-ahead prices provided by the Price Agent, we access the online database for industry day-ahead prices for the United Kingdom ([ENTSO-E, 2015](https://transparency.entsoe.eu/transmission-domain/r2/dayAheadPrices/show)). 
 
-### Adding data
+## Setup
 
 The REFIT data files can be accessed using the following link: https://www.doi.org/10.15129/9ab14b0e-19ac-4279-938f-27f643078cec.
 
 After downloading the clean household data needs to be copied to ./data
 
 ## Project structure
-
+````
 ├── README.txt                                                  # this readme file
 │
 ├── code.                                                       # agent notebooks + .py scripts
@@ -74,3 +74,4 @@ After downloading the clean household data needs to be copied to ./data
     ├── 1_config.json                                               # configurations used for evaluating households 1 to 10
     ├── [...]
     └── 10_config.json
+````
