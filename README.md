@@ -13,8 +13,9 @@ arXiv preprint. DOI: doi.org/10.48550/arXiv.2205.02704.
 The paper is available at: [arXiv](https://doi.org/10.48550/arXiv.2205.02704)
 
 - [Summary](#summary)
-- [Repo structure](#repo-structure)
-- [Data](#data)
+- [Data](#data)- 
+- [Setup](#setup)
+- [Project structure](#project-structure)
 
 ## Summary 
 
