@@ -72,3 +72,27 @@ After downloading the clean household data needs to be copied to ./data
     ├── [...]
     └── 10_config.json
 ````
+
+## Citation
+
+If you use this code in your research, please cite our [paper](https://doi.org/10.48550/arXiv.2205.02704).
+
+```
+@inproceedings{lim2019fast,
+  title={Fast AutoAugment},
+  author={Lim, Sungbin and Kim, Ildoo and Kim, Taesup and Kim, Chiheon and Kim, Sungwoong},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2019}
+  
+  
+@misc{RHGZ2022,
+  title = {Utility-Based Context-Aware Multi-Agent Recommendation System for Energy Efficiency in Residential Buildings},
+  author = {Riabchuk, Valentyna and Hagel, Leon and Germaine, Felix and Zharova, Alona},
+  year = {2022},
+  publisher = {arXiv},
+  doi = {10.48550/ARXIV.2205.02704}  
+}
+```
+
+## Contact
+- Alona Zharova, alona.zharova@hu-berlin.de
