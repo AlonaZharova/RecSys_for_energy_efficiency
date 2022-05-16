@@ -12,7 +12,7 @@ arXiv preprint. DOI: doi.org/10.48550/arXiv.2205.02704.
 The paper is available at: [arXiv](https://doi.org/10.48550/arXiv.2205.02704)
 
 - [Summary](#summary)
-- [Data](#data)- 
+- [Data](#data)
 - [Setup](#setup)
 - [Project structure](#project-structure)
 
@@ -50,6 +50,8 @@ After downloading the clean household data needs to be copied to ./data
 ## Project structure
 ````
 ├── README.txt                                                  # this readme file
+│
+├── agents.jpg                                                  # figure of the multi-agent architecture
 │
 ├── code.                                                       # agent notebooks + .py scripts
 │   ├── Activity_Agent.ipynb
