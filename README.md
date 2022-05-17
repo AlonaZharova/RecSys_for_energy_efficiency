@@ -1,7 +1,5 @@
 # Utility-Based Context-Aware Multi-Agent Recommendation System for Energy Efficiency in Residential Buildings
 
-![results](/agents.jpg)
-
 A digital companion to the research paper 
 
 ```
@@ -10,6 +8,8 @@ Utility-Based Context-Aware Multi-Agent Recommendation System for Energy Efficie
 arXiv preprint. DOI: doi.org/10.48550/arXiv.2205.02704.
 ```
 The paper is available at: [arXiv](https://doi.org/10.48550/arXiv.2205.02704)
+
+![results](/agents.jpg)
 
 ## Summary 
 
