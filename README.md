@@ -1,6 +1,6 @@
 # Utility-Based Context-Aware Multi-Agent Recommendation System for Energy Efficiency in Residential Buildings
 
-A digital companion to the research paper 
+A digital companion to the preprint 
 
 ```
 Valentyna Riabchuk, Leon Hagel, Felix Germaine, and Alona Zharova (2022). 
