@@ -6,5 +6,5 @@ authors:
     orcid: https://orcid.org/0000-0003-3506-4744
 title: "Codes for the paper "Utility-Based Context-Aware Multi-Agent Recommendation System for Energy Efficiency in Residential Buildings""
 version: 2.0.4
-doi:  https://doi.org/10.48550/arXiv.2205.02704
-date-released: 2021-08-11
+doi:  "https://doi.org/10.48550/arXiv.2205.02704"
+date-released: 2022-05-05
