@@ -83,7 +83,7 @@ If you use this code in your research, please cite our [paper](https://doi.org/1
   author = {Riabchuk, Valentyna and Hagel, Leon and Germaine, Felix and Zharova, Alona},
   publisher = {arXiv},
   year = {2022},
-  doi = {10.48550/ARXIV.2205.02704}  
+  doi = {10.48550/arXiv.2205.02704}  
 }
 ```
 
